@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>question Answer</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<div class="p-12 text-center bg-base-100 ">
+
+    <h1 class="mb-5 text-lg">Welcome to question Answer part !!!</h1>
+
+
+
+
+    <div class="collapse">
+        <input type="checkbox" class="peer" />
+        <div
+            class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-xl mb-2 bg-fuchsia-500">
+            1. what is the different map filter ,find , forEach ? </div>
+        <div
+            class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content bg-red-400">
+            <p>The main difference between forEach and filter is that forEach just loop over the array and executes the
+                callback but filter executes the callback and check its return value. If the value is true element
+                remains in the resulting array but if the return value is false the element will be removed for the
+                resulting array.
+            </p>
+        </div>
+    </div>
+    <div class="collapse">
+        <input type="checkbox" class="peer" />
+        <div
+            class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-xl mb-2">
+
+            2. what is the different localStore ,cookies ,session store.
+
+        </div>
+        <div
+            class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content  bg-red-400">
+            Local storage is useful for storing data that the user will need to access later, such as offline data.
+            Session storage is similar to cookies, but the data is only stored for the current session. This means that
+            the data will be deleted when the user closes the browser.
+        </div>
+    </div>
+    <div class="collapse">
+        <input type="checkbox" class="peer" />
+        <div
+            class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-xl mb-2  bg-violet-600">
+            3. what is the evenLoop ,how do work it ?
+        </div>
+        <div
+            class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content  bg-red-400">
+            <p>The event loop is a process that waits for the Call Stack to be clear before pushing callbacks from the
+                Task Queue to the Call Stack. Once the Stack is clear, the event loop triggers and checks the Task Queue
+                for available callbacks.</p>
+        </div>
+    </div>
+    <div class="collapse">
+        <input type="checkbox" class="peer" />
+        <div
+            class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-xl mb-2  bg-teal-800">
+            4. What is the purpose of use quizTimer function ? 
+        </div>
+        <div
+            class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content  bg-red-400">
+            <p>When we clicked Start Quiz button ofter 3 seconds the quiz start .quiz timer function count time that how
+                many time we need to answered the quiz and when we clicked submit quiz then the timer will be stop .
+                that is quizTimer function work.</p>
+        </div>
+    </div>
+    <div class="collapse">
+        <input type="checkbox" class="peer" />
+        <div
+            class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content rounded-xl mb-2 bg-teal-300">
+            5. What is the purpose of use chooseQuiz function ?
+        </div>
+        <div
+            class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content  bg-red-400">
+            <p>chooseQuiz function compare to array element to the exiting array element that will show in the
+                displayResult function . if the element is not existed then this element push to the new array after
+                completed the circle the new array is pass by displayResult function and show in UI </p>
+        </div>
+    </div>
+
+</div>
+<footer class="py-10 text-center text-sm">
+    Copyright © 2023 devloper Hashebur rahman All Rights Reserved.
+</footer>
+
+</body>
+
+</html>
